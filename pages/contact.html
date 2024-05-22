@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SimpleShop</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label for="source">How did you hear about us?</label>
+                <select id="source" name="source" required>
+                    <option value="facebook">Facebook</option>
+                    <option value="google">Google</option>
+                    <option value="x">X (formerly known as Twitter)</option>
+                    <option value="linkedin">LinkedIn</option>
+                </select><br>
+
+                <button type="submit" style="margin: 10px">Send</button>
+            </form>
+            <form id="newsletter-form">
+                <label for="newsletter-email">Subscribe to our newsletter:</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 WatchShop. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
